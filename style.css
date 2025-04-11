@@ -1,13 +1,24 @@
+/* foi utilizada IA para poder adicionar o css na minha navbar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b500fd5d;
+    padding: 10px 20px;
+    color: white;
+}
+
 .Logo {
     width: 100%;
-    height: 70%;
-    /* border: 1px solid red; */
+    height:100%;
+    border: 7px solid #590094; 
     color: hwb(278 0% 59%);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 5rem;
+    font-style: bold;
 }
 
 .Nav-links {
@@ -17,5 +28,23 @@
     width: 100%;
     height: 100%;
     list-style-type: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    font-style: bold;
+}
+ 
+/*foi utilizada IA para poder modificar a minha imagem*/
+.emiadegaveta {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    /*pinto*/
+    border: 5px solid #590094;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
